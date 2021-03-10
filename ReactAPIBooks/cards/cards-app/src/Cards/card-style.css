@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap");
+
+body{
+    background: radial-gradient(#e5e5e5,#fff,#e5e5e5);
+    
+}
+.cardbody{
+    width: 90%;
+}
+.card{
+    width: 20rem;
+    height: 30rem;
+     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important; 
+     /* cursor: pointer; */
+}
+
+.card.text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+.container-fluid .row{
+padding: 6rem;
+}
+img{
+    width: 20rem;
+    height: 30rem;
+}
+.frontSide {
+        cursor: 'pointer';
+        display: 'flex';
+        align-items: 'center';
+        flex-direction: 'column';
+        transition : ' 2s ,  1s ';
+        width:'min-content';
+        box-shadow: 'none';
+        background-color:'red';
+}
+.a{
+    transition-duration: 1s;
+}
+a{
+    text-decoration:'none',
+}
