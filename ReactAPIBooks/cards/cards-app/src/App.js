@@ -8,6 +8,8 @@ import GlobalStyle from './globalStyles';
 import ScrollToTop from './ScrollToTop';
 import  Navbar from './Navbar/Navbar';
 import Footer from "./Footer/Footer";
+import Iframe from './Iframe/Iframe';
+
 function App() {
   return (
     // <div className="App">
@@ -33,7 +35,7 @@ function App() {
       <Switch>
     
       <Route path='/' exact component={Home} />
-      
+      <Route path='/iframe/:id' exact component={Iframe} />
       
     
     </Switch>
